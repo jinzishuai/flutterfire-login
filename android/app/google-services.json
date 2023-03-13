@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "839148412972",
+    "project_id": "flutterfire-3d3b0",
+    "storage_bucket": "flutterfire-3d3b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839148412972:android:a0573bf477c5d3a0ccf189",
+        "android_client_info": {
+          "package_name": "com.example.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5xyFPLGo5kwgxqiAqxSzeq1yAIB6ODM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "839148412972-uij12u0rp77m8n6bdns3mbmqphtm51o4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.googlelogin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
