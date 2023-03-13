@@ -26,8 +26,6 @@ flutter run -d chrome  --web-port 5000
 
 ### Notes for Web 
 
-ref: https://github.com/jinzishuai/personal-repo/issues/793
-
 - The code needs to set the `clientId` which is obtained from Firebase
 - We need to run the web server at authorized javascript origins which normally is  http://localhost:5000 during testing
   - Run `flutter run -d chrome  --web-port 5000` to launch the app during testing
@@ -36,8 +34,6 @@ ref: https://github.com/jinzishuai/personal-repo/issues/793
 
 
 ### Notes for Android
-
-ref: https://github.com/jinzishuai/personal-repo/issues/797
 
 - Run `./gradlew signingReport` from the `android` folder to get app fingerprints
 - Copy and Paste the SHA1 and SHA-256 fingers to [Firebase Project Settings for Android](https://console.firebase.google.com/project/flutterfire-3d3b0/settings/general/android:com.example.googlelogin)
