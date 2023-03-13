@@ -1,6 +1,6 @@
 # googlelogin
 
-A Flutter project with Firebase focused on [google_sign_in](https://github.com/flutter/packages/tree/main/packages/google_sign_in)
+A Flutter project with Firebase focused on [google_sign_in](https://github.com/flutter/packages/tree/main/packages/google_sign_in), based on [its example code](https://github.com/flutter/packages/tree/main/packages/google_sign_in/google_sign_in/example).
 
 ## Getting Started
 
