@@ -26,7 +26,7 @@ flutter run -d chrome  --web-port 5000
 
 ### Notes for Web 
 
-- The code needs to set the `clientId` which is obtained from Firebase
+- The code needs to set the `clientId` in [index.html](web/index.html) which is obtained from Firebase
 - We need to run the web server at authorized javascript origins which normally is  http://localhost:5000 during testing
   - Run `flutter run -d chrome  --web-port 5000` to launch the app during testing
   - If testing remotely, we could build the web app and then launch it with `python -m http.server 5000`
@@ -38,3 +38,8 @@ flutter run -d chrome  --web-port 5000
 - Run `./gradlew signingReport` from the `android` folder to get app fingerprints
 - Copy and Paste the SHA1 and SHA-256 fingers to [Firebase Project Settings for Android](https://console.firebase.google.com/project/flutterfire-3d3b0/settings/general/android:com.example.googlelogin)
 - Note that the client_id information is stored in [android/app/google-services.json](android/app/google-services.json) for Android.
+
+## Notes for iOS
+
+- [GoogleService-Info.plist](ios/Runner/GoogleService-Info.plist) needs to be added to xcode project and it contains the google oAuth ID.
+- Value of `REVERSED_CLIENT_ID` needs to be set in [Info.plist](https://github.com/jinzishuai/flutterfire-login/blob/master/ios/Runner/Info.plist#L32)
