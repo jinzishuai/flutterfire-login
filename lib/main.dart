@@ -16,8 +16,8 @@ import 'firebase_options.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   // Optional clientId
-  clientId:
-      '839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com',
+  // clientId:
+  //     '839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com',
   scopes: <String>[
     'email',
     'https://www.googleapis.com/auth/contacts.readonly',
