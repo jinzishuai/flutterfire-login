@@ -30,7 +30,7 @@ flutter run -d chrome  --web-port 5000
 - We need to run the web server at authorized javascript origins which normally is  http://localhost:5000 during testing
   - Run `flutter run -d chrome  --web-port 5000` to launch the app during testing
   - If testing remotely, we could build the web app and then launch it with `python -m http.server 5000`
-- Finally, the code needs to access user's contact and this won't work until we enable the [Google People API](https://console.developers.google.com/apis/api/people.googleapis.com/overview?project=839148412972) 
+- Finally, the code needs to access user's contact and this won't work until we enable the [Google People API](https://console.developers.google.com/apis/api/people.googleapis.com/overview?project=839148412972) which is still necessary even if we are not accessing contact info (needed for the user's own profile, see [PR-4](https://github.com/jinzishuai/flutterfire-login/pull/4)).
 
 
 ### Notes for Android
