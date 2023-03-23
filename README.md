@@ -39,7 +39,7 @@ flutter run -d chrome  --web-port 5000
 - Copy and Paste the SHA1 and SHA-256 fingers to [Firebase Project Settings for Android](https://console.firebase.google.com/project/flutterfire-3d3b0/settings/general/android:com.example.googlelogin)
 - Note that the client_id information is stored in [android/app/google-services.json](android/app/google-services.json) for Android.
 
-## Notes for iOS
+### Notes for iOS
 
 - [GoogleService-Info.plist](ios/Runner/GoogleService-Info.plist) needs to be added to xcode project and it contains the google oAuth ID.
 - Value of `REVERSED_CLIENT_ID` needs to be set in [Info.plist](https://github.com/jinzishuai/flutterfire-login/blob/master/ios/Runner/Info.plist#L32)
