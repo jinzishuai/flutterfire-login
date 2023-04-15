@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "839148412972",
+    "project_id": "flutterfire-3d3b0",
+    "storage_bucket": "flutterfire-3d3b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839148412972:android:4e7c604b8c7ed695ccf189",
+        "android_client_info": {
+          "package_name": "com.example.ff_login_gpt4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5xyFPLGo5kwgxqiAqxSzeq1yAIB6ODM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "839148412972-cll03ht0t6hq8c6ojcvrf3b9f6kvsu1m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ffLoginGpt4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839148412972:android:a0573bf477c5d3a0ccf189",
+        "android_client_info": {
+          "package_name": "com.example.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839148412972-1omrkalaclsk0600v76n0i46ks6mk9id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlelogin",
+            "certificate_hash": "4c9721716138aebef3d3f1a24667eefd5e40f979"
+          }
+        },
+        {
+          "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5xyFPLGo5kwgxqiAqxSzeq1yAIB6ODM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839148412972-4l8dup9mc1b9ih3ma04p2b3k5slq8rcn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "839148412972-cll03ht0t6hq8c6ojcvrf3b9f6kvsu1m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ffLoginGpt4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
